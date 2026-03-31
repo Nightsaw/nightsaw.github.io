@@ -44,7 +44,7 @@
     .tool-header { display: flex; justify-content: space-between; align-items: center; padding: 0.8rem 1rem; cursor: pointer; background: rgba(27,79,138,0.1); transition: background 0.2s; font-size: 0.85rem; font-weight: 600; color: var(--white); border: none; width: 100%; text-align: left; }
     .tool-header:hover { background: rgba(27,79,138,0.25); }
     .tool-arrow { color: var(--cyan); font-size: 0.7rem; transition: transform 0.3s; }
-    .tool-header.open .tool-arrow { transform: rotate(180deg); }
+    .tool-header.open .tool-arrow { transform: rotate(1100deg); }
     .tool-body { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; background: rgba(13,27,42,0.9); }
     .tool-body.open { max-height: 2000px; }
     .tool-body-inner { padding: 1rem; }
@@ -59,7 +59,7 @@
     /* HERO */
     .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 8rem 1rem 4rem; max-width: 1200px; margin: 0 auto; position: relative; overflow: hidden; width: 100%; }
     .hero-badge { font-family: monospace; font-size: 0.75rem; color: var(--cyan); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 1.5rem; opacity: 0; animation: fadeUp 0.6s ease forwards 0.2s; }
-    .hero h1 { font-size: clamp(2.5rem,9vw,6.5rem); font-weight: 800; line-height: 1.05; margin-bottom: 1.5rem; opacity: 0; animation: fadeUp 0.6s ease forwards 0.4s; }
+    .hero h1 { font-size: clamp(2.5rem,9vw,6.5rem); font-weight: 1000; line-height: 1.05; margin-bottom: 1.5rem; opacity: 0; animation: fadeUp 0.6s ease forwards 0.4s; }
     .hero h1 span { color: var(--cyan); }
     .hero p { font-size: 1.15rem; color: var(--gray); line-height: 1.7; max-width: 560px; margin-bottom: 2.5rem; opacity: 0; animation: fadeUp 0.6s ease forwards 0.6s; }
     .hero-buttons { display: flex; gap: 0.8rem; flex-wrap: wrap; opacity: 0; animation: fadeUp 0.6s ease forwards 0.8s; align-items: flex-start; }
@@ -80,41 +80,41 @@
     /* SECTION */
     section { max-width: 1200px; margin: 0 auto; padding: 5rem 1rem; }
     .section-label { font-family: monospace; font-size: 0.7rem; color: var(--cyan); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 1rem; }
-    .section-title { font-size: clamp(1.8rem,4vw,2.8rem); font-weight: 800; margin-bottom: 1rem; line-height: 1.1; }
+    .section-title { font-size: clamp(1.8rem,4vw,2.8rem); font-weight: 1000; margin-bottom: 1rem; line-height: 1.1; }
     .section-sub { color: var(--gray); font-size: 1rem; line-height: 1.7; max-width: 520px; margin-bottom: 3rem; }
     /* SERVICES */
     .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap: 1px; background: rgba(46,184,199,0.1); border: 1px solid rgba(46,184,199,0.1); border-radius: 8px; overflow: hidden; }
     .service-card { background: rgba(13,27,42,0.95); padding: 2rem; transition: background 0.2s; cursor: pointer; }
     .service-card:hover { background: rgba(27,79,138,0.3); }
     .service-icon { font-size: 1.8rem; margin-bottom: 1rem; }
-    .service-name { font-size: 1rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .service-name { font-size: 1rem; font-weight: 1000; margin-bottom: 0.5rem; }
     .service-desc { font-size: 0.85rem; color: var(--gray); line-height: 1.6; margin-bottom: 1.2rem; }
     .service-footer { display: flex; justify-content: space-between; align-items: center; }
     .service-price { font-family: monospace; font-size: 1.1rem; font-weight: 700; color: var(--green); }
     .service-time { font-family: monospace; font-size: 0.7rem; color: var(--gray); background: rgba(255,255,255,0.05); padding: 0.2rem 0.6rem; border-radius: 20px; }
     /* STEPS */
-    .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); gap: 2rem; }
+    .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(1100px,1fr)); gap: 2rem; }
     .step { padding-left: 1rem; border-left: 2px solid rgba(46,184,199,0.3); }
     .step-num { font-family: monospace; font-size: 0.7rem; color: var(--cyan); letter-spacing: 2px; margin-bottom: 0.8rem; }
-    .step-title { font-size: 1rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .step-title { font-size: 1rem; font-weight: 1000; margin-bottom: 0.5rem; }
     .step-desc { font-size: 0.85rem; color: var(--gray); line-height: 1.6; }
     /* PAYMENT */
     .payment-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 1.5rem; }
     .payment-card { background: rgba(27,79,138,0.1); border: 1px solid rgba(46,184,199,0.15); border-radius: 8px; padding: 1.8rem; text-align: center; transition: border-color 0.2s, transform 0.2s; }
     .payment-card:hover { border-color: var(--cyan); transform: translateY(-4px); }
     .payment-emoji { font-size: 2.5rem; margin-bottom: 1rem; }
-    .payment-name { font-weight: 800; font-size: 1rem; margin-bottom: 0.5rem; }
+    .payment-name { font-weight: 1000; font-size: 1rem; margin-bottom: 0.5rem; }
     .payment-desc { font-size: 0.85rem; color: var(--gray); line-height: 1.5; }
     /* CONTACT */
     .contact-box { background: rgba(27,79,138,0.15); border: 1px solid rgba(46,184,199,0.2); border-radius: 8px; padding: 3rem; text-align: center; }
-    .contact-box h2 { font-size: 2rem; font-weight: 800; margin-bottom: 1rem; }
+    .contact-box h2 { font-size: 2rem; font-weight: 1000; margin-bottom: 1rem; }
     .contact-box p { color: var(--gray); margin-bottom: 2rem; font-size: 1rem; line-height: 1.6; }
     .contact-options { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
     /* MODAL */
     .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.8); backdrop-filter: blur(8px); z-index: 500; display: none; align-items: center; justify-content: center; padding: 1rem; }
     .modal-overlay.active { display: flex; }
-    .modal { background: var(--navy); border: 1px solid rgba(46,184,199,0.3); border-radius: 12px; padding: 2.5rem; max-width: 480px; width: 100%; position: relative; }
-    .modal h3 { font-size: 1.4rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .modal { background: var(--navy); border: 1px solid rgba(46,184,199,0.3); border-radius: 12px; padding: 2.5rem; max-width: 4100px; width: 100%; position: relative; }
+    .modal h3 { font-size: 1.4rem; font-weight: 1000; margin-bottom: 0.5rem; }
     .modal-price { font-family: monospace; color: var(--green); font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; }
     .modal p { color: var(--gray); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.5rem; }
     .modal-close { position: absolute; top: 1rem; right: 1rem; background: none; border: none; color: var(--gray); font-size: 1.5rem; cursor: pointer; transition: color 0.2s; }
@@ -251,7 +251,7 @@
   <h2 class="section-title">O que posso<br>resolver pra você</h2>
   <p class="section-sub">Clique em qualquer serviço para ver detalhes e formas de pagamento.</p>
   <div class="services-grid">
-    <div class="service-card" id="sc-formatacao"><div class="service-icon">💻</div><div class="service-name">Formatação Windows</div><div class="service-desc">Formatação completa, instalação do Windows 10 ou 11, drivers e programas essenciais.</div><div class="service-footer"><span class="service-price">R$ 80</span><span class="service-time">1~2h</span></div></div>
+    <div class="service-card" id="sc-formatacao"><div class="service-icon">💻</div><div class="service-name">Formatação Windows</div><div class="service-desc">Formatação completa, instalação do Windows 10 ou 11, drivers e programas essenciais.</div><div class="service-footer"><span class="service-price">R$ 100</span><span class="service-time">1~2h</span></div></div>
     <div class="service-card" id="sc-limpeza"><div class="service-icon">🧹</div><div class="service-name">Limpeza & Otimização</div><div class="service-desc">Remoção de vírus, malware e programas indesejados. PC mais rápido e seguro.</div><div class="service-footer"><span class="service-price">R$ 60</span><span class="service-time">1~2h</span></div></div>
     <div class="service-card" id="sc-suporte"><div class="service-icon">🔧</div><div class="service-name">Suporte Técnico Remoto</div><div class="service-desc">Erros, travamentos, configurações gerais e instalação de softwares.</div><div class="service-footer"><span class="service-price">R$ 40</span><span class="service-time">30~60min</span></div></div>
     <div class="service-card" id="sc-rede"><div class="service-icon">🌐</div><div class="service-name">Configuração de Rede</div><div class="service-desc">Roteador, Wi-Fi, compartilhamento de rede, VPN e conexões.</div><div class="service-footer"><span class="service-price">R$ 70</span><span class="service-time">1~2h</span></div></div>
@@ -319,7 +319,7 @@
   var WHATSAPP = '5587981477433';
 
   var services = {
-    formatacao: { title: 'Formatação Windows', price: 'R$ 80', desc: 'Formatação completa, instalação do Windows 10 ou 11, drivers e programas essenciais. Atendimento remoto via AnyDesk ou TeamViewer. Tempo estimado: 1 a 2 horas.', msg: 'Olá! Quero contratar o serviço de Formatação Windows por R$80.' },
+    formatacao: { title: 'Formatação Windows', price: 'R$ 100', desc: 'Formatação completa, instalação do Windows 10 ou 11, drivers e programas essenciais. Atendimento remoto via AnyDesk ou TeamViewer. Tempo estimado: 1 a 2 horas.', msg: 'Olá! Quero contratar o serviço de Formatação Windows por R$100.' },
     limpeza:    { title: 'Limpeza & Otimização', price: 'R$ 60', desc: 'Remoção completa de vírus, malware e programas indesejados. Limpeza de registro e otimização da inicialização. Tempo estimado: 1 a 2 horas.', msg: 'Olá! Quero contratar Limpeza e Otimização por R$60.' },
     suporte:    { title: 'Suporte Técnico Remoto', price: 'R$ 40', desc: 'Resolução de problemas gerais: travamentos, erros, configurações e instalação de softwares. Diagnóstico gratuito. Tempo estimado: 30 a 60 minutos.', msg: 'Olá! Quero contratar Suporte Técnico Remoto por R$40.' },
     rede:       { title: 'Configuração de Rede', price: 'R$ 70', desc: 'Configuração de roteador, Wi-Fi, compartilhamento de rede, VPN e conexões. Tempo estimado: 1 a 2 horas.', msg: 'Olá! Quero contratar Configuração de Rede por R$70.' },
@@ -405,7 +405,7 @@
       var score = (len>=16?40:len>=12?25:10)+(/[A-Z]/.test(senha)?15:0)+(/[0-9]/.test(senha)?15:0)+(/[^a-zA-Z0-9]/.test(senha)?30:0);
       var bar = document.getElementById('strength-bar');
       bar.style.width = Math.min(score,100)+'%';
-      bar.style.background = score>=80?'#1db87a':score>=50?'#f0a500':'#e74c3c';
+      bar.style.background = score>=100?'#1db87a':score>=50?'#f0a500':'#e74c3c';
     });
 
     // Ping
@@ -425,7 +425,7 @@
 
     // Checklist
     _initChecklist = function() {
-      var items = ['Reiniciou o PC hoje?','Windows Update em dia?','Antivírus ativo e atualizado?','Disco com +10% de espaço livre?','Sem programas inúteis na inicialização?','Temperatura do processador normal (<80°C)?','Wi-Fi ou cabo com sinal forte?','Drivers de vídeo atualizados?'];
+      var items = ['Reiniciou o PC hoje?','Windows Update em dia?','Antivírus ativo e atualizado?','Disco com +10% de espaço livre?','Sem programas inúteis na inicialização?','Temperatura do processador normal (<100°C)?','Wi-Fi ou cabo com sinal forte?','Drivers de vídeo atualizados?'];
       var el = document.getElementById('checklist');
       items.forEach(function(item) {
         var label = document.createElement('label');
